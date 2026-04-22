@@ -16,7 +16,7 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://<jeshnavi-17.github.io"
+                                "https://jeshnavi-17.github.io"
                         ) // React dev
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
